@@ -1,0 +1,78 @@
+/* 
+background color: #D3FCF6
+main: 30313D
+secondary: 6120C9
+*/
+
+.theme {
+  background-color:#D3FCF6;
+  font-family: "Montserrat", sans-serif;  
+}
+
+
+
+.noScroll{
+  overflow-y: hidden;
+}
+
+.bg-sea{
+  background-color: #D3FCF6 !important;
+}
+
+.logo {
+  float:left;
+  width:40%;
+  text-align:center
+}
+
+.pic {
+  width:10%;
+}
+
+
+/*grid stuff here*/
+.photos {
+  grid-area: photos;
+  width:42vw;
+  height:42vh;
+
+}
+.stream {
+  grid-area: stream;
+  width:42vw;
+  height:42vh;
+
+  
+
+}
+.videos {
+  grid-area: videos;
+  
+}
+
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+  'photos photos photos stream stream stream'
+    'photos photos photos stream stream stream'
+    'videos videos videos videos videos videos';
+  grid-gap: 0px;
+  padding: 10px;
+  max-width: 100vw;
+  max-height: 100vh;
+}
+.grid-container > div {
+  text-align: center;
+  font-size: 30px;
+}
+
+.welcome {
+text-align:center;
+}
+
+.welcome-logo {
+margin-top:5%;
+height:50%;
+
+}

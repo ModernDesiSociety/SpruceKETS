@@ -1,0 +1,23 @@
+LEFT @:
+
+
+CLASS:
+-newsletter sign up.
+- most popular vid home page
+-most recent
+-auto update
+
+HOMEWORK
+-design theme
+-wrie bios
+-pictures/ logos!!!!!
+
+
+EXTRAS:
+- adblocker warning
+https://html-online.com/articles/detect-adblock-javascript/
+- easter eggs for no adblock
+- google ads 
+- donate paypal
+- auto update
+- submission form
